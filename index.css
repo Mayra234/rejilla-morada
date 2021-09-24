@@ -6,19 +6,19 @@ body {
 }
 
 .content {
+  margin-top: 20px;
   background: white;
   width: 250px;
-  height: 400px;
+  height: 500px;
   display: flex;
   flex-direction: column;
 }
 
 .sidebar {
-  height: 90px;
+  height: 60px;
   text-align: center;
   padding-top: 20px;
   display: flex;
-  box-sizing: border-box;
   justify-content: center;
   color: silver;
   font-weight: bold;
@@ -28,7 +28,7 @@ body {
 
 .button-menu {
   padding-left: 20px;
-  height: 60px;
+  height: 40px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -43,8 +43,12 @@ body {
   color: #9b5ceb;
 }
 
+.icon {
+  min-width: 25px;
+}
+
 .profile {
-  padding-top: 75px;
+  padding-top: 100px;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
